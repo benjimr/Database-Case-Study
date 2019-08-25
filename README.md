@@ -1,2 +1,1 @@
-# Database-Case-Study
 Database assignment based around a case study of a computer building shop. Includes PL/SQL and SQL for creating a database, inserting data, granting/revoking permissions and manipulating the database as well as various queries showing the use of various techniques inlcuding of selection, projection, aggregation with filters, union, minus, inner-join, outer-join, semi-join, anti-join and correlated sub query. 
