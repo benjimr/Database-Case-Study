@@ -1,1 +1,8 @@
 Database assignment based around a case study of a computer building shop. Includes PL/SQL and SQL for creating a database, inserting data, granting/revoking permissions and manipulating the database as well as various queries showing the use of various techniques inlcuding of selection, projection, aggregation with filters, union, minus, inner-join, outer-join, semi-join, anti-join and correlated sub query. 
+
+## Case Study
+
+### Bespoke computers
+A company, which builds computers according to customer specifications, needs a computerised system to keep track of its activities. Customer orders are for one or more computers, each one built to order.
+When an order comes in from a customer, a computer specification is drawn up for each computer on the order. This specifies how a computer should be built and contains a list of parts (e.g. processor type, hard disk type, memory type, etc.) that are to be used. The computer is built according to its specifications and the specification is marked “completed”.
+The parts specified are bought in from suppliers. The same type of part may be purchased from more than one supplier (e.g. a mouse can be bought from Dell, Logitech or from PC World). Each individual part purchased has a unique serial number, as well as a part type. Therefore, two screens bought from Dell will have different serial numbers, although they may have the same part type. Also, two screens, one from Dell and the other from Hewlett Packard, may, as far as the specification is concerned, be the same part type – i.e. it has the same technical specifications. However, if a part fails after delivery, the part must be traced back to the supplier who supplied it.
